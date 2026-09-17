@@ -1,4 +1,4 @@
-﻿namespace IfAndElseNesting2
+﻿namespace IfAndElseNesting3
 {
     internal class Program
     {
@@ -7,7 +7,7 @@
             Console.WriteLine("-----If and else nesting 2-----");
 
             Console.WriteLine("Sisesta number:");
-            
+
             string input = Console.ReadLine();
 
             if (int.TryParse(input, out int input))
